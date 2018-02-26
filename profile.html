@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profile : Jacob Lee</title>
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <div class="background"></div>
+  <main class="card details-card form-card">
+    <header class="card-header form-card-header">
+      <nav class="left">
+        <a href="/">
+          <img class="nav-icon" src="assets/svgs/back.svg" />
+          <span class="hide-mobile">Back</span>
+        </a>
+      </nav>
+      Profile
+    </header>
+    <form class="card-form" action="/">
+      <section class="input-group">
+        <div class="input-row">
+          <input type="text" value="Jacob" placeholder="First name" autocomplete="given-name" />
+          <input type="text" value="Lee" placeholder="Last name" autocomplete="family-name" />
+        </div>
+        <input type="text" value="Web Developer" placeholder="Job title" autocomplete="organization-title" />
+        <input type="text" value="London, United Kingdom" placeholder="Location" />
+        <input type="text" value="Web Developer at Adobe. I just want ot make beautiful things. Event if nobody cares." placeholder="About me" />
+      </section>
+      <section class="input-group">
+          <div class="input-row">
+              <input type="text" value="21/06/1982" placeholder="Date of birth" autocomplete="bday" />
+              <select autocomplete="sex">
+                <option>Choose...</option>
+                <option selected>Male</option>
+                <option>Female</option>
+              </select>
+            </div>
+      </section>
+      <button type="submit">Save</button>
+    </form>
+  </main>
+</body>
+</html>
